@@ -1,0 +1,18 @@
+{
+  "extends": "react-app",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true,
+      "impliedStrict": true
+    }
+  },
+  "rules": {
+    "no-console": "off",
+    "jsx-a11y/href-no-hash": "off"
+  }
+}
